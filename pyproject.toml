@@ -1,0 +1,10 @@
+[project]
+name = "Learn"
+version = "0.1.0"
+description = "A list of simple python program to help me lear"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django-qrcode>=0.3",
+    "qrcode[pil]>=8.2",
+]
