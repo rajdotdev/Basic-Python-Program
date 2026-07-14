@@ -1,23 +1,44 @@
 # Basic Python Programs
 
-A collection of beginner Python projects I'm building as I learn programming. Each script explores a different concept — from file handling and APIs to GUIs and automation.
+> A beginner-friendly collection of Python scripts I built while learning the language. Each program covers a different concept — from string manipulation and randomness to networking and email protocols.
+
+I'm currently learning Python and these are the small projects I've created along the way to understand core programming concepts. Feel free to use them as reference or starting points for your own projects.
 
 ## Projects
 
-- **EmailSender.py** — Sends emails via Gmail SMTP using Python's `smtplib`. A great intro to working with network protocols and the `email` library.
+| File | Description | Concepts |
+|------|-------------|----------|
+| `EmailSender.py` | Sends emails through Gmail's SMTP server | SMTP, SSL, email library |
+| `QrCode_Generator.py` | Generates QR codes from text or URLs | Image generation, external libraries |
+| `Quiz.py` | Terminal-based multiple-choice quiz game | Loops, conditionals, user input |
+| `Random_Python_Gen.py` | Generates random passwords and strings | `random`, `string` modules |
+| `roll_dice.py` | Simulates rolling one or more dice | Functions, randomness |
+| `Simple_Calculator.py` | Basic arithmetic calculator | Functions, error handling |
+| `Simple_Email_Slicer.py` | Extracts username and domain from an email | String slicing, parsing |
+| `site_connection_checker.py` | Checks if a website is online | HTTP requests, status codes |
+| `Word_Replacement.py` | Replaces words in a given text | String methods, text processing |
 
-- **QrCode_Generator.py** — Generates QR codes from URLs or text using the `qrcode` library. Simple and useful for understanding image generation.
+## Prerequisites
 
-- **Quiz.py** — A terminal-based quiz game with multiple-choice questions. Covers basic control flow, loops, and user input handling.
+- Python 3.10+
+- Install dependencies:
+  ```bash
+  pip install qrcode[pil]
+  ```
 
-- **Random_Python_Gen.py** — Generates random data like passwords, numbers, or strings. Explores Python's `random` and `string` modules.
+## How to Run
 
-- **roll_dice.py** — Simulates rolling dice with random outcomes. A fun way to practice functions and randomness.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rajdotdev/Basic-Python-Program.git
+   cd Basic-Python-Program
+   ```
 
-- **Simple_Calculator.py** — A basic calculator that handles arithmetic operations. Good practice for functions and exception handling.
+2. Run any script:
+   ```bash
+   python EmailSender.py
+   ```
 
-- **Simple_Email_Slicer.py** — Extracts the username and domain from an email address. Teaches string slicing and manipulation.
+## Author
 
-- **site_connection_checker.py** — Checks if a website is reachable using HTTP requests. Introduction to networking and status codes.
-
-- **Word_Replacement.py** — Replaces specific words in a given text. Covers string methods and basic text processing.
+**Raj Shekhar Aryal** — learning Python one script at a time.
